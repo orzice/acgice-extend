@@ -1,5 +1,5 @@
 {
-    "name": "jaeger/orzice-extend",
+    "name": "orzice/orzice-extend",
     "description": "QueryList Plugin: Orzice extend. Orzice 扩展",
     "require": {
         "PHP":">=7.0"
