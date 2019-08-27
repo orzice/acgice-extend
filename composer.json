@@ -1,0 +1,22 @@
+{
+    "name": "jaeger/orzice-extend",
+    "description": "QueryList Plugin: Orzice extend. Orzice 扩展",
+    "require": {
+        "PHP":">=7.0"
+    },
+    "require-dev": {
+        "jaeger/querylist": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "QL\\Ext\\": ""
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orzice",
+            "email": "admin@orzice.com"
+        }
+    ]
+}
