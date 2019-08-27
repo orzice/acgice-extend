@@ -1,6 +1,6 @@
 {
-    "name": "orzice/orzice-extend",
-    "description": "QueryList Plugin: Orzice extend. Orzice 扩展",
+    "name": "acgice/acgice-extend",
+    "description": "QueryList Plugin: acgice extend. Acgice 扩展",
     "require": {
         "PHP":">=7.0"
     },
