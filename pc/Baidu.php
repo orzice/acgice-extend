@@ -5,7 +5,6 @@
  * Date: 2017/10/1
  * Baidu searcher
  */
-
 namespace QL\Ext\pc;
 
 use QL\Contracts\PluginContract;
