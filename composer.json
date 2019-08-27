@@ -5,7 +5,7 @@
         "PHP":">=7.0"
     },
     "require-dev": {
-        "jaeger/querylist": "^4.0"
+        "jaeger/querylist": "dev-master"
     },
     "autoload": {
         "psr-4": {
