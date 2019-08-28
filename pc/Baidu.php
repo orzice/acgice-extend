@@ -6,7 +6,7 @@
  * Baidu searcher
  */
 
-namespace QL\Ext;
+namespace QL\Ext\pc;
 
 use QL\Contracts\PluginContract;
 use QL\QueryList;
