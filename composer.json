@@ -1,6 +1,6 @@
 {
     "name": "acgice/acgice-extend",
-    "description": "QueryList Plugin: acgice extend. Acgice 扩展",
+    "description": "AcgIce Plugin: acgice extend. Acgice 核心 扩展",
     "keywords":["Acgice","spider"],
     "homepage": "https://www.orzice.com/forum/159",
     "require": {
