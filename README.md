@@ -4,13 +4,13 @@ acgice-search extend
 
 
 
-## 框架地址
+## AcgIce search
 
 https://github.com/orzice/acgice
 
 
 
-## 立即安装
+## install
 
 ```
 composer require acgice/acgice-extend
