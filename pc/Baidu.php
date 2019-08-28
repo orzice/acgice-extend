@@ -52,10 +52,26 @@ class Baidu implements PluginContract
 
     public function page($page = 1,$realURL = false)
     {
-        return $this->query($page)->query()->getData(function ($item) use($realURL){
+         $data = $this->query($page)->query()->getData(function ($item) use($realURL){
             $realURL && $item['link'] = $this->getRealURL($item['link']);
             return $item;
         });
+        return $this->setArray($data);
+    }
+    //针对数组处理
+    public function setArray($data)
+    {
+        $new = array();
+        for ($i=0; $i < count($data); $i++) { 
+            if($data[$i]['link'] !== ''){
+                $new[] = array(
+                    'title' => $data[$i]['title'],
+                    'link' => $data[$i]['link'],
+                    'content' => $data[$i]['content'],
+                    );
+            }
+        }
+        return $new;
     }
 
     public function getCount()
