@@ -20,7 +20,8 @@ class Baidu implements PluginContract
     const API = 'https://www.baidu.com/s';
     const RULES = [
       'title' => ['h3','text'],
-      'link' => ['h3>a','href']
+      'link' => ['h3>a','href'],
+      'content' => ['.c-abstract','text']
     ];
     const RANGE = '.result';
 
