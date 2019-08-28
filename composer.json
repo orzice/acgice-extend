@@ -10,7 +10,7 @@
         "jaeger/g-http": "^1.1"
     },
     "require-dev": {
-        "jaeger/querylist": "^4"
+        "jaeger/querylist": "^4",
         "symfony/var-dumper": "^3.3",
         "phpunit/phpunit": "^7.5"
     },
